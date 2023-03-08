@@ -1,0 +1,17 @@
+.logo{
+    background-color: red;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.out{
+    color: red;
+}
+.division1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.chair{
+    border-radius: 50px;
+}
