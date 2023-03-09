@@ -1,6 +1,12 @@
 .logo{
     background-color: red;
 }
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -51,4 +57,9 @@ footer{
     background-color: black;
     color: white;
 }
-
+button{
+    padding: 3px;
+}
+button{
+    padding: 20px;
+}
