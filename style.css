@@ -17,9 +17,12 @@ nav{
 .division1{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap:10px;
 }
 .chair{
     border-radius: 50px;
+    height: 800px;
+    width: 500px;
 }
 .home{
     text-align: center;
@@ -62,4 +65,84 @@ button{
 }
 button{
     padding: 20px;
+}
+.nai{
+    background-image: url(cimage/pexels-photo-9833516.jpeg);
+    background-size: cover;
+    width: 500px;
+    height:500px;
+}
+.mombasa{
+    background-image: url(cimage/pexels-photo-12831620.jpeg);
+    background-size: cover;
+}
+.jinja{
+    background-image: url(cimage/istockphoto-505125226-612x612.jpg);
+    background-size: cover;
+    width: 500px;
+    height:500px;
+}
+.kampala{
+    background-image: url(cimage/istockphoto-802551426-612x612.jpg);
+    background-size: cover;
+    width: 500px;
+    height:500px;
+}
+.addis{
+    background-image: url(cimage/pexels-photo-12109950.jpeg);
+    background-size: cover;
+    width: 500px;
+    height:500px;
+}
+.dar{
+    background-image: url(cimage/pexels-photo-12238283.jpeg);
+    background-size: cover;
+    width: 500px;
+    height:500px;
+}
+.flags{
+    display: flex;
+    justify-content: space-around;
+}
+.uganda{
+    width: 400px;
+    height: 400px;
+    border-radius: 300px;
+}
+.kenya{
+    width: 400px;
+    height: 400px;
+    border-radius:300px;
+}
+.tanzania{
+    width: 400px;
+    height: 400px;
+    border-radius: 300px;
+}
+.country{
+    border:3px solid aqua;
+}
+.nairobi{
+    width: 300px;
+    height: 240px;
+}
+.kenya-colum1{
+    display: flex;
+    justify-content: space-around;
+}
+.kenya-colum2{
+    display: flex;
+    justify-content: space-around;
+}
+.tanzania-colum1{
+    display: flex;
+    justify-content: space-around;
+}
+.tanzania-colum2{
+    display: flex;
+    justify-content: space-around;
+}
+.uganda-colum1{
+    display: flex;
+    justify-content: space-around;
 }
